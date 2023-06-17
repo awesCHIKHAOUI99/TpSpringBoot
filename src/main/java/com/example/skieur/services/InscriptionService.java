@@ -1,19 +1,25 @@
-package com.example.stationski.services;
+package com.example.skieur.services;
 
-import com.example.stationski.configs.UtilityFonction;
-import com.example.stationski.entities.*;
-import com.example.stationski.repositories.CoursRepository;
-import com.example.stationski.repositories.InscriptionRepository;
-import com.example.stationski.repositories.SkieurRepository;
-import lombok.AllArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Service;
-
-import javax.transaction.Transactional;
-import java.time.LocalDate;
 import java.util.List;
 import java.util.Set;
+
+import javax.transaction.Transactional;
+
+import org.springframework.stereotype.Service;
+
+import com.example.skieur.customFunction.UtilityFonction;
+import com.example.skieur.entities.Cours;
+import com.example.skieur.entities.Inscription;
+import com.example.skieur.entities.Skieur;
+import com.example.skieur.entities.Support;
+import com.example.skieur.entities.TypeAbonnement;
+import com.example.skieur.entities.TypeCours;
+import com.example.skieur.repositories.CoursRepository;
+import com.example.skieur.repositories.InscriptionRepository;
+import com.example.skieur.repositories.SkieurRepository;
+
+import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 @Service
 @AllArgsConstructor
 @Slf4j

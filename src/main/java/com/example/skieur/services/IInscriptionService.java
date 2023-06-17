@@ -1,8 +1,8 @@
-package com.example.stationski.services;
+package com.example.skieur.services;
 
-import com.example.stationski.entities.Inscription;
-import com.example.stationski.entities.Support;
-import com.example.stationski.entities.TypeAbonnement;
+import com.example.skieur.entities.Inscription;
+import com.example.skieur.entities.Support;
+import com.example.skieur.entities.TypeAbonnement;
 
 import java.time.LocalDate;
 import java.util.List;

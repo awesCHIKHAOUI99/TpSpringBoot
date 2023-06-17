@@ -1,17 +1,26 @@
-package com.example.stationski.services;
+package com.example.skieur.services;
 
-import com.example.stationski.entities.*;
-import com.example.stationski.repositories.CoursRepository;
-import com.example.stationski.repositories.PisteRepository;
-import com.example.stationski.repositories.SkieurRepository;
-import lombok.AllArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Service;
-import javax.transaction.Transactional;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
+import javax.transaction.Transactional;
+
+import org.springframework.stereotype.Service;
+
+import com.example.skieur.entities.Couleur;
+import com.example.skieur.entities.Cours;
+import com.example.skieur.entities.Inscription;
+import com.example.skieur.entities.Piste;
+import com.example.skieur.entities.Skieur;
+import com.example.skieur.entities.TypeAbonnement;
+import com.example.skieur.repositories.CoursRepository;
+import com.example.skieur.repositories.PisteRepository;
+import com.example.skieur.repositories.SkieurRepository;
+
+import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
 @Service
 @AllArgsConstructor

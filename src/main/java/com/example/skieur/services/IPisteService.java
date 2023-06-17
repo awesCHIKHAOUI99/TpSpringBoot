@@ -1,4 +1,4 @@
-package com.example.stationski.services;
+package com.example.skieur.services;
 
 public interface IPisteService {
 }

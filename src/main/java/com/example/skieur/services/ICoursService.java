@@ -1,7 +1,7 @@
-package com.example.stationski.services;
+package com.example.skieur.services;
 
 public interface ICoursService {
 
-//    void listeCoursSnowBoard();
+   void listeCoursSnowBoard();
 
 }

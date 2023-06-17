@@ -1,5 +1,6 @@
 package com.example.skieur.entities;
 
-public class Support {
+public enum Support {
+    SKI,SNOWBOARD
     
 }

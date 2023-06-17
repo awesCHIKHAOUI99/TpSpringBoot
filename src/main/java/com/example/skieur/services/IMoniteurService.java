@@ -1,6 +1,6 @@
-package com.example.stationski.services;
+package com.example.skieur.services;
 
-import com.example.stationski.entities.Moniteur;
+import com.example.skieur.entities.Moniteur;
 
 import java.util.List;
 

@@ -1,12 +1,11 @@
-package com.example.stationski.services;
-
-import com.example.stationski.entities.Couleur;
-import com.example.stationski.entities.Skieur;
-import com.example.stationski.entities.TypeAbonnement;
+package com.example.skieur.controllers;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
+
+import com.example.skieur.entities.Couleur;
+import com.example.skieur.entities.Skieur;
+import com.example.skieur.entities.TypeAbonnement;
 
 public interface ISkieurService {
 

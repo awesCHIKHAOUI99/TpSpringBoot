@@ -1,8 +1,8 @@
-package com.example.stationski.services;
+package com.example.skieur.services;
 
-import com.example.stationski.entities.Moniteur;
-import com.example.stationski.repositories.CoursRepository;
-import com.example.stationski.repositories.MoniteurRepository;
+import com.example.skieur.entities.Moniteur;
+import com.example.skieur.repositories.CoursRepository;
+import com.example.skieur.repositories.MoniteurRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

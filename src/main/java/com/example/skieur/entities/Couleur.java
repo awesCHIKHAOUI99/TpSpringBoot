@@ -1,5 +1,6 @@
 package com.example.skieur.entities;
 
-public class Couleur {
+public enum Couleur {
+    VERT,BLEU,ROUGE,NOIR
     
 }
